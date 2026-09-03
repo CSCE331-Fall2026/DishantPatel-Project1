@@ -21,6 +21,10 @@ The website includes links to:
 - GitHub: https://github.com/Dishant-Patel3
 - Project repositories for each featured project
 
+## Design Sketches (Digital)
+
+
+
 ## Built With
 
 - HTML
