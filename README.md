@@ -23,6 +23,9 @@ The website includes links to:
 
 ## Design Sketches (Digital)
 
+https://github.com/CSCE331-Fall2026/DishantPatel-Project1/blob/main/Checkpoint1_Sketch1.pdf
+https://github.com/CSCE331-Fall2026/DishantPatel-Project1/blob/main/Checkpoint1_Sketch2.pdf
+
 
 
 ## Built With
