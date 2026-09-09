@@ -1,34 +1,77 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>Portfolio - Dishant Patel</title>
-<a href="index.html">Home</a> | <a href="portfolio.html">Portfolio</a> | <a href="activities.html">Activities</a> | <a href="genai.html">My Passion</a>
-</head>
-<body>
-<h1>Portfolio</h1>
-<h2>Technical Skills</h2>
-<p>
-<strong>Languages:</strong> Python, JavaScript, TypeScript, Java, C++, SQL<br>
-<strong>Frameworks:</strong> React, Node.js, Flask<br>
-<strong>Tools:</strong> Git, GitHub, AWS, Google Cloud<br>
-<strong>AI/ML:</strong> scikit-learn, OpenAI API, NLP
-</p>
-<h2>Areas of Interest</h2>
-<ul>
-<li>AI and machine learning applications</li>
-<li>Full-stack web development</li>
-<li>Sports analytics and data visualization</li>
-</ul>
-<h2>Projects</h2>
-<h3>NFL Prediction AI</h3>
-<p>Trained a machine learning model on 500,000+ NFL datapoints using Python and scikit-learn. Used feature engineering to identify which stats best predicted game outcomes. Achieved 83% accuracy. Deployed as a Flask web app. <a href="https://github.com/Dishant-Patel3/NFL-Prediction-AI">View on GitHub</a></p>
-<h3>Blue-Chip App</h3>
-<p>Java application that recommends movies and TV shows based on user preferences. Integrated The Movie Database API to pull real content. Served 100+ users. <a href="https://github.com/Dishant-Patel3/BlueChip-App">View on GitHub</a></p>
-<h3>LoneStar Shield</h3>
-<p>Public safety map built in C++ using Leaflet that tracks registered sex offenders in Texas using official government data. Shows real-time location data on an interactive map. <a href="https://github.com/Dishant-Patel3/LoneStar-Shield">View on GitHub</a></p>
-<h3>Car Price Predictor</h3>
-<p>Python and scikit-learn model that predicts car valuations based on make, color, year, mileage, and other factors. Built and tested in Jupyter Notebook. <a href="https://github.com/Dishant-Patel3/Car-Price-Predictor-AI">View on GitHub</a></p>
-<h2>Resume</h2>
-<p><a href="Patel_Dishant_Resume copy.pdf">Resume PDF</a></p>
-</body>
+  <head>
+    <title>Portfolio - Dishant Patel</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <nav>
+      <div class="container">
+        <a href="index.html">Home</a> | <a href="portfolio.html">Portfolio</a> | <a href="activities.html">Activities</a> | <a href="genai.html">My Passion</a>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="section-header">
+        <h1>Portfolio</h1>
+        <a href="Patel_Dishant_Resume copy.pdf" class="button">Download Resume</a>
+      </div>
+      <h2>Technical Skills</h2>
+      <div class="skills">
+        <p>
+          <strong>Languages:</strong> Python, JavaScript, TypeScript, Java, C++, SQL<br>
+          <strong>Frameworks:</strong> React, Node.js, Flask<br>
+          <strong>Tools:</strong> Git, GitHub, AWS, Google Cloud<br>
+          <strong>AI/ML:</strong> scikit-learn, OpenAI API, NLP
+        </p>
+      </div>
+      <h2>Areas of Interest</h2>
+      <ul>
+        <li>AI and machine learning applications</li>
+        <li>Full-stack web development</li>
+        <li>Sports analytics and data visualization</li>
+      </ul>
+      <h2>Projects</h2>
+
+      <div class="projects">
+        <div class="project">
+          <h3>NFL Prediction AI</h3>
+          <p>Trained a machine learning model on 500,000+ NFL datapoints using Python and scikit-learn. Used feature engineering to identify which stats best predicted game outcomes. Achieved 83% accuracy. Deployed as a Flask web app.</p>
+          <p class="project-link">Click to view on GitHub</p>
+          <a href="https://github.com/Dishant-Patel3/NFL-Prediction-AI" class="project-image">
+            <img src="NFL copy.png" alt="NFL Prediction AI">
+          </a>
+        </div>
+
+        <div class="project">
+          <h3>Blue-Chip App</h3>
+          <p>Java application that recommends movies and TV shows based on user preferences. Integrated The Movie Database API to pull real content. Served 100+ users.</p>
+          <p class="project-link">Click to view on GitHub</p>
+          <a href="https://github.com/Dishant-Patel3/BlueChip-App" class="project-image">
+            <img src="Bluechip copy.png" alt="Blue-Chip App">
+          </a>
+        </div>
+
+        <div class="project">
+          <h3>LoneStar Shield</h3>
+          <p>Public safety map built in C++ using Leaflet that tracks registered sex offenders in Texas using official government data. Shows real-time location data on an interactive map.</p>
+          <p class="project-link">Click to view on GitHub</p>
+          <a href="https://github.com/Dishant-Patel3/LoneStar-Shield" class="project-image">
+            <img src="Sex-Off copy.png" alt="LoneStar Shield">
+          </a>
+        </div>
+
+        <div class="project">
+          <h3>Car Price Predictor</h3>
+          <p>Python and scikit-learn model that predicts car valuations based on make, color, year, mileage, and other factors. Built and tested in Jupyter Notebook.</p>
+          <p class="project-link">Click to view on GitHub</p>
+          <a href="https://github.com/Dishant-Patel3/Car-Price-Predictor-AI" class="project-image">
+            <img src="CarAI copy.png" alt="Car Price Predictor">
+          </a>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
