@@ -21,6 +21,15 @@ The website includes links to:
 - GitHub: https://github.com/Dishant-Patel3
 - Project repositories for each featured project
 
+## Design Sketches (Digital)
+
+https://github.com/CSCE331-Fall2026/DishantPatel-Project1/blob/main/Checkpoint1_Sketch1.pdf
+
+
+https://github.com/CSCE331-Fall2026/DishantPatel-Project1/blob/main/Checkpoint1_Sketch2.pdf
+
+
+
 ## Built With
 
 - HTML
