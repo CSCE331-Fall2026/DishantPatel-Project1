@@ -4,15 +4,15 @@
     <title>Portfolio - Dishant Patel</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" id="stylesheet">
+    <script src="script.js"></script>
   </head>
   <body>
     <nav>
       <div class="container">
-        <a href="index.html">Home</a> | <a href="portfolio.html">Portfolio</a> | <a href="activities.html">Activities</a> | <a href="genai.html">My Passion</a>
+        <a href="index.html">Home</a> | <a href="portfolio.html">Portfolio</a> | <a href="activities.html">Activities</a> | <a href="genai.html">My Passion</a> | <a href="#" class="design-toggle">Design 2</a>
       </div>
     </nav>
-
     <div class="container">
       <div class="section-header">
         <h1>Portfolio</h1>
@@ -29,46 +29,42 @@
       </div>
       <h2>Areas of Interest</h2>
       <ul>
-        <li>AI and machine learning applications</li>
-        <li>Full-stack web development</li>
-        <li>Sports analytics and data visualization</li>
+        <li><strong>AI and machine learning.</strong> I like taking a pile of data and turning it into something that can make a prediction. That is what got me into the NFL model and the car price predictor.</li>
+        <li><strong>Full-stack web development.</strong> Building something end to end, from the database to the page someone clicks on, is the part of CS I find most satisfying.</li>
+        <li><strong>Sports analytics and data visualization.</strong> I follow the NFL and NBA closely and I am interested in how teams use numbers to make decisions, and how to show that data so it makes sense to a regular fan.</li>
       </ul>
       <h2>Projects</h2>
-
       <div class="projects">
         <div class="project">
           <h3>NFL Prediction AI</h3>
           <p>Trained a machine learning model on 500,000+ NFL datapoints using Python and scikit-learn. Used feature engineering to identify which stats best predicted game outcomes. Achieved 83% accuracy. Deployed as a Flask web app.</p>
           <p class="project-link">Click to view on GitHub</p>
           <a href="https://github.com/Dishant-Patel3/NFL-Prediction-AI" class="project-image">
-            <img src="NFL copy.png" alt="NFL Prediction AI">
+            <img src="Images/NFL copy.png" alt="NFL Prediction AI">
           </a>
         </div>
-
         <div class="project">
           <h3>Blue-Chip App</h3>
           <p>Java application that recommends movies and TV shows based on user preferences. Integrated The Movie Database API to pull real content. Served 100+ users.</p>
           <p class="project-link">Click to view on GitHub</p>
           <a href="https://github.com/Dishant-Patel3/BlueChip-App" class="project-image">
-            <img src="Bluechip copy.png" alt="Blue-Chip App">
+            <img src="Images/Bluechip copy.png" alt="Blue-Chip App">
           </a>
         </div>
-
         <div class="project">
           <h3>LoneStar Shield</h3>
           <p>Public safety map built in C++ using Leaflet that tracks registered sex offenders in Texas using official government data. Shows real-time location data on an interactive map.</p>
           <p class="project-link">Click to view on GitHub</p>
           <a href="https://github.com/Dishant-Patel3/LoneStar-Shield" class="project-image">
-            <img src="Sex-Off copy.png" alt="LoneStar Shield">
+            <img src="Images/Sex-Off copy.png" alt="LoneStar Shield">
           </a>
         </div>
-
         <div class="project">
           <h3>Car Price Predictor</h3>
           <p>Python and scikit-learn model that predicts car valuations based on make, color, year, mileage, and other factors. Built and tested in Jupyter Notebook.</p>
           <p class="project-link">Click to view on GitHub</p>
           <a href="https://github.com/Dishant-Patel3/Car-Price-Predictor-AI" class="project-image">
-            <img src="CarAI copy.png" alt="Car Price Predictor">
+            <img src="Images/CarAI copy.png" alt="Car Price Predictor">
           </a>
         </div>
       </div>
