@@ -1,6 +1,6 @@
 # Dishant Patel - Personal Website
 
-This is my personal website for CSCE 315 Lab at Texas A&M.
+This is my personal website for CSCE 331 at Texas A&M.
 
 ## View Online
 
@@ -16,7 +16,7 @@ This is my personal website for CSCE 315 Lab at Texas A&M.
 
 ## Design Toggle
 
-Every page except the AI page has a **Design 1 / Design 2** button in the top left. `script.js` switches between `style.css` and `style2.css` and remembers your choice as you move between pages.
+The navigation on every page except the AI page has a **Design 1 / Design 2** link at the end. Clicking it swaps between `style.css` and `style2.css`, and `script.js` remembers your choice so it stays the same as you move between pages.
 
 - **Design 1** - dark background, cyan accents, top navigation bar
 - **Design 2** - white background, teal and orange, box grid layout, hamburger menu on inner pages
