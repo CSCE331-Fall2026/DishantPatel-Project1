@@ -1,6 +1,6 @@
 # Dishant Patel - Personal Website
 
-This is my personal website for CSCE 315 Lab at Texas A&M.
+This is my personal website for CSCE 331 at Texas A&M.
 
 ## View Online
 
